@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>City Overview</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-orange-500 p-5 text-white flex justify-between items-center shadow-md">
+        <h1 class="text-xl font-bold">Swiggy Dashboard</h1>
+        <div class="space-x-5 text-lg">
+          <a href="index.html" class="hover:underline">Overview</a>
+          <a href="user-performance.html" class="hover:underline">User Performance</a>
+          <a href="city-overview.html" class="hover:underline">City Overview</a>
+          <a href="restaurant-analysis.html" class="hover:underline">Restaurants</a>
+        </div>
+      </nav>
+      
+  <section class="p-6">
+    <h2 class="text-2xl font-bold mb-4">Top Cities by Orders</h2>
+    <table class="w-full bg-white shadow rounded-xl overflow-hidden">
+      <thead class="bg-gray-200 text-left">
+        <tr>
+          <th class="p-3">City</th>
+          <th class="p-3">Orders</th>
+          <th class="p-3">Revenue</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="border-t">
+          <td class="p-3">Tirupati</td>
+          <td class="p-3">12,300</td>
+          <td class="p-3">₹43M</td>
+        </tr>
+        <tr class="border-t">
+          <td class="p-3">Bangalore</td>
+          <td class="p-3">9,800</td>
+          <td class="p-3">₹43M</td>
+        </tr>
+        <tr class="border-t">
+          <td class="p-3">Raipur</td>
+          <td class="p-3">8,400</td>
+          <td class="p-3">₹43M</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</body>
+</html>
